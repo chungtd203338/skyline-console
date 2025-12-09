@@ -79,16 +79,16 @@ export class Login extends Component {
   get productName() {
     const {
       product_name = {
-        zh: t('The Rackspace Cloud'),
-        en: 'The Rackspace Cloud',
+        zh: t('The Vnpt Cloud'),
+        en: 'The Vnpt Cloud',
       },
     } = this.info;
     const { getLocaleShortName } = i18n;
     const language = getLocaleShortName();
     const name =
       product_name[language] ||
-      t('The Rackspace Cloud') ||
-      'The Rackspace Cloud';
+      t('The Vnpt Cloud') ||
+      'The Vnpt Cloud';
     return t('Welcome to {name}', { name });
   }
 
