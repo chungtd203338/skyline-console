@@ -79,16 +79,14 @@ export class Login extends Component {
   get productName() {
     const {
       product_name = {
-        zh: t('The Vnpt Cloud'),
-        en: 'The Vnpt Cloud',
+        zh: t('The VNPT Cloud'),
+        en: 'The VNPT Cloud',
       },
     } = this.info;
     const { getLocaleShortName } = i18n;
     const language = getLocaleShortName();
     const name =
-      product_name[language] ||
-      t('The Vnpt Cloud') ||
-      'The Vnpt Cloud';
+      product_name[language] || t('The VNPT Cloud') || 'The VNPT Cloud';
     return t('Welcome to {name}', { name });
   }
 

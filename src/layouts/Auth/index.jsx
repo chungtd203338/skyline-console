@@ -94,10 +94,10 @@ export class AuthLayout extends Component {
               className={styles.brandTitle}
               aria-label="Rackspace OpenStack platform"
             >
-              Vnpt OpenStack
+              VNPT OpenStack
             </h2>
             <p className={styles.brandSubtitle} aria-describedby="brand-title">
-              Powered by openCenter
+              Powered by vnptcloud
             </p>
           </div>
         </div>
